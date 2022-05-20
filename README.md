@@ -64,7 +64,8 @@ collecting ...
 
  ice_viruses.py ⨯                                                      100% ██████████
 ===================================== short test summary info ========================
-FAILED ice_viruses.py::test_root_to_tip[tree0] - phytest.utils.PhytestAssertion: The R-squarred value from the root-to-tip regression '0.36462497968641333' is less than '0.5'.
+FAILED ice_viruses.py::test_root_to_tip[tree0] - phytest.utils.PhytestAssertion: The 
+R-squarred value from the root-to-tip regression '0.36462497968641333' is less than '0.5'.
 
 Results (0.31s):
       53 passed
