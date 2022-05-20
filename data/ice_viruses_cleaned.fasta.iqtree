@@ -1,0 +1,179 @@
+IQ-TREE 2.0.7 built Jun 17 2020
+
+Input file name: data/ice_viruses_cleaned.fasta
+Type of analysis: tree reconstruction
+Random seed number: 639600
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 45 sequences with 462 nucleotide sites
+Number of constant sites: 217 (= 46.9697% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 217 (= 46.9697% of all sites)
+Number of parsimony informative sites: 216
+Number of distinct site patterns: 245
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 1.2343
+  A-G: 5.3158
+  A-T: 0.5990
+  C-G: 0.1805
+  C-T: 6.7153
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3279
+  pi(C) = 0.2119
+  pi(G) = 0.2286
+  pi(T) = 0.2316
+
+Rate matrix Q:
+
+  A   -0.8771     0.142    0.6598    0.0753
+  C    0.2198    -1.086   0.02241    0.8442
+  G    0.9464   0.02077    -1.093    0.1257
+  T    0.1066    0.7725    0.1241    -1.003
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.5153
+
+ Category  Relative_rate  Proportion
+  1         0.03627        0.25
+  2         0.2618         0.25
+  3         0.8311         0.25
+  4         2.871          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -3925.3618 (s.e. 157.5223)
+Unconstrained log-likelihood (without tree): -1972.2223
+Number of free parameters (#branches + #model parameters): 92
+Akaike information criterion (AIC) score: 8034.7236
+Corrected Akaike information criterion (AICc) score: 8081.0976
+Bayesian information criterion (BIC) score: 8415.1956
+
+Total tree length (sum of branch lengths): 1.6260
+Sum of internal branch lengths: 1.0512 (64.6449% of tree length)
+
+WARNING: 4 near-zero internal branches (<0.0022) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'A.Fiji.15899.83.AJ289702_1983' is drawn at root
+
++--A.Fiji.15899.83.AJ289702_1983
+|
+|  +--A.Kiev.59.1979.M38353_1979
++--|
+|  |           +--A.FortMonmouth.1.1947.U02085_1947
+|  |        +--|
+|  |        |  |     +--A.Meguro.1.1956.AB043485_1956
+|  |        |  |  +--|
+|  |        |  |  |  +--A.Saga.2.1957.AB043486_1957
+|  |        |  +--|
+|  |        |     +**A.Kojiya.1.1952.AB043482_1952
+|  |     +--|
+|  |     |  |               +--A.BrevigMission.1.18.AF116575_1918
+|  |     |  |        +------|
+|  |     |  |        |      |                              +--A.goose.HongKong.8.1976.U46021_1976
+|  |     |  |        |      |                           +--|
+|  |     |  |        |      |                           |  |        +--A.mallard.Tennessee.11464.85.AF091311_1985
+|  |     |  |        |      |                           |  |  +-----|
+|  |     |  |        |      |                           |  |  |     |  +--A.teal.Alberta.141.1992.CY004539_1992
+|  |     |  |        |      |                           |  |  |     +--|
+|  |     |  |        |      |                           |  |  |        |        +**A.pintail.Ohio.25.1999.CY017725_1999
+|  |     |  |        |      |                           |  |  |        |     +--|
+|  |     |  |        |      |                           |  |  |        |     |  +**A.Teal.Ohio.72.1999.CY017717_1999
+|  |     |  |        |      |                           |  |  |        |  +**|
+|  |     |  |        |      |                           |  |  |        |  |  |  +**A.mallard.ALB.267.1996.CY004504_1996
+|  |     |  |        |      |                           |  |  |        |  |  +**|
+|  |     |  |        |      |                           |  |  |        |  |     +--A.duck.NJ.771770.1995.EU026110_1995
+|  |     |  |        |      |                           |  |  |        +--|
+|  |     |  |        |      |                           |  |  |           |  +**A.mallard.Alberta.211.1998.AY633212_1998
+|  |     |  |        |      |                           |  |  |           +--|
+|  |     |  |        |      |                           |  |  |              +--A.mallard.MD.403.2002.EU026082_2002
+|  |     |  |        |      |                           |  +--|
+|  |     |  |        |      |                           |     +---A.duck.HK.196.1977.D00839_1977
+|  |     |  |        |      |  +------------------------|
+|  |     |  |        |      |  |                        +--A.duck.Australia.749.80.AF091312_1980
+|  |     |  |        |      +--|
+|  |     |  |        |         |         +--A.swine.29.37.U04857_1937
+|  |     |  |        |         |      +--|
+|  |     |  |        |         |      |  |             +--A.swine.Ehime.1.80.X57494_1980
+|  |     |  |        |         |      |  |          +--|
+|  |     |  |        |         |      |  |          |  |  +-----A.swine.Thailand.271.2005.EF101749_2005
+|  |     |  |        |         |      |  |          |  +--|
+|  |     |  |        |         |      |  |          |     +--A.swine.HongKong.273.1994.U45452_1994
+|  |     |  |        |         |      |  |       +--|
+|  |     |  |        |         |      |  |       |  +--A.swine.NewJersey.11.76.K00992_1976
+|  |     |  |        |         |      |  |    +--|
+|  |     |  |        |         |      |  |    |  +--A.swine.Illinois.63.X57493_1963
+|  |     |  |        |         |      |  +----|
+|  |     |  |        |         |      |       +**A.swine.Wisconsin.1.61.AF091307_1961
+|  |     |  |        |         |   +**|
+|  |     |  |        |         |   |  |  +--A.swine.Iowa.15.1930.U47305_1930
+|  |     |  |        |         |   |  +**|
+|  |     |  |        |         |   |     +**A.swine.Iowa.15.1930.EU139823_1930
+|  |     |  |        |         +---|
+|  |     |  |        |             +--A.swine.Iowa.15.1930.X57492_1930
+|  |     |  |     +--|
+|  |     |  |     |  |  +--A.WS.33.U08904_1933
+|  |     |  |     |  +--|
+|  |     |  |     |     |  +**A.WSN.1933.CY010788_1933
+|  |     |  |     |     +--|
+|  |     |  |     |        +**A.WilsonSmith.1933.DQ508905_1933
+|  |     |  |  +--|
+|  |     |  |  |  |     +**A.PuertoRico.8.34.J02144_1934
+|  |     |  |  |  |  +--|
+|  |     |  |  |  |  |  +**A.PuertoRico.8.1934.EF467821_1934
+|  |     |  |  |  +--|
+|  |     |  |  |     +**A.PuertoRico.8.1934.J04572_1934
+|  |     |  +--|
+|  |     |     +--A.Huston.43.AF494251_1943
+|  |  +--|
+|  |  |  +--A.Lepine.1948.AB043479_1948
+|  +--|
+|     +--A.USSR.90.1977.K01331_1977
+|
+|     +--A.SouthCarolina.6.1988.L19025_1988
+|  +--|
+|  |  |  +**A.Yamagata.32.1989.D31949_1989
+|  |  +--|
+|  |     |  +--A.BuenosAires.T114.97.AF534026_1997
+|  |     +--|
+|  |        |  +--A.Beijing.262.95.AY289928_1995
+|  |        +--|
+|  |           +--A.Alaska.1173.00.AY029287_2000
++--|
+   +**A.Finland.4.1984.L33491_1984
+
+Tree in newick format:
+
+(A.Fiji.15899.83.AJ289702_1983:0.0225102084,(A.Kiev.59.1979.M38353_1979:0.0043871873,((((A.FortMonmouth.1.1947.U02085_1947:0.0060470724,((A.Meguro.1.1956.AB043485_1956:0.0188026756,A.Saga.2.1957.AB043486_1957:0.0254926862):0.0035206121,A.Kojiya.1.1952.AB043482_1952:0.0000010000):0.0275010972):0.0111485279,((((A.BrevigMission.1.18.AF116575_1918:0.0058502500,(((A.goose.HongKong.8.1976.U46021_1976:0.0170145607,((A.mallard.Tennessee.11464.85.AF091311_1985:0.0216263429,(A.teal.Alberta.141.1992.CY004539_1992:0.0084470187,(((A.pintail.Ohio.25.1999.CY017725_1999:0.0000010000,A.Teal.Ohio.72.1999.CY017717_1999:0.0000010000):0.0139344542,(A.mallard.ALB.267.1996.CY004504_1996:0.0019877613,A.duck.NJ.771770.1995.EU026110_1995:0.0039293901):0.0019483138):0.0000010000,(A.mallard.Alberta.211.1998.AY633212_1998:0.0020606938,A.mallard.MD.403.2002.EU026082_2002:0.0160128058):0.0123008210):0.0249331732):0.0167052867):0.0797401306,A.duck.HK.196.1977.D00839_1977:0.0540178687):0.0141591169):0.0296239536,A.duck.Australia.749.80.AF091312_1980:0.0187247377):0.3014623306,(((A.swine.29.37.U04857_1937:0.0198118235,((((A.swine.Ehime.1.80.X57494_1980:0.0100791087,(A.swine.Thailand.271.2005.EF101749_2005:0.0812840055,A.swine.HongKong.273.1994.U45452_1994:0.0382901199):0.0238480158):0.0134436582,A.swine.NewJersey.11.76.K00992_1976:0.0120620284):0.0326592298,A.swine.Illinois.63.X57493_1963:0.0041342807):0.0023580305,A.swine.Wisconsin.1.61.AF091307_1961:0.0015015400):0.0619841885):0.0163536620,(A.swine.Iowa.15.1930.U47305_1930:0.0039531298,A.swine.Iowa.15.1930.EU139823_1930:0.0000010000):0.0019941606):0.0016467179,A.swine.Iowa.15.1930.X57492_1930:0.0188979111):0.0569886602):0.0028854395):0.0833328234,(A.WS.33.U08904_1933:0.0113893708,(A.WSN.1933.CY010788_1933:0.0019764474,A.WilsonSmith.1933.DQ508905_1933:0.0020004402):0.0257306365):0.0200908214):0.0045963115,((A.PuertoRico.8.34.J02144_1934:0.0000010000,A.PuertoRico.8.1934.EF467821_1934:0.0000010000):0.0079829666,A.PuertoRico.8.1934.J04572_1934:0.0000010000):0.0253063189):0.0338392600,A.Huston.43.AF494251_1943:0.0272119525):0.0311374989):0.0302731636,A.Lepine.1948.AB043479_1948:0.0082872328):0.0081606118,A.USSR.90.1977.K01331_1977:0.0060517585):0.0035769637):0.0061524156,((A.SouthCarolina.6.1988.L19025_1988:0.0058654944,(A.Yamagata.32.1989.D31949_1989:0.0019842873,(A.BuenosAires.T114.97.AF534026_1997:0.0313979417,(A.Beijing.262.95.AY289928_1995:0.0104502095,A.Alaska.1173.00.AY029287_2000:0.0273564393):0.0129149790):0.0036468964):0.0041044880):0.0185580471,A.Finland.4.1984.L33491_1984:0.0020701476):0.0025284473);
+
+TIME STAMP
+----------
+
+Date and time: Tue May 17 16:22:54 2022
+Total CPU time used: 8.16177 seconds (0h:0m:8s)
+Total wall-clock time used: 8.22946 seconds (0h:0m:8s)
+

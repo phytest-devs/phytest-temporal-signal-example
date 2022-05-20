@@ -1,0 +1,164 @@
+IQ-TREE multicore version 2.0.7 for Mac OS X 64-bit built Jun 17 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    MacBook-Pro.local (AVX2, FMA3, 8 GB RAM)
+Command: iqtree2 -s data/ice_viruses.fasta -m GTR+G
+Seed:    833701 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue May 17 16:22:01 2022
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file data/ice_viruses.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 52 sequences with 462 columns, 255 distinct patterns
+220 parsimony-informative, 27 singleton sites, 215 constant sites
+                                            Gap/Ambiguity  Composition  p-value
+   1  A.Fiji.15899.83.AJ289702_1983                 0.00%    passed     68.28%
+   2  A.Kiev.59.1979.M38353_1979                    0.00%    passed     85.94%
+   3  A.FortMonmouth.1.1947.U02085_1947             0.00%    passed     75.10%
+   4  A.BrevigMission.1.18.AF116575_1918            0.00%    passed     99.13%
+   5  A.SouthCarolina.6.1988.L19025_1988            0.00%    passed     92.33%
+   6  A.Yamagata.32.1989.D31949_1989                0.00%    passed     96.39%
+   7  A.Finland.4.1984.L33491_1984                  0.87%    passed     88.73%
+   8  A.USSR.90.1977.K01331_1977                    0.00%    passed     80.22%
+   9  A.Lepine.1948.AB043479_1948                   0.00%    passed     81.91%
+  10  A.Meguro.1.1956.AB043485_1956                 0.00%    passed     69.90%
+  11  A.Kojiya.1.1952.AB043482_1952                 0.00%    passed     80.37%
+  12  A.Huston.43.AF494251_1943                     0.00%    passed     93.05%
+  13  A.BuenosAires.T114.97.AF534026_1997           0.00%    passed     89.74%
+  14  A.PuertoRico.8.34.J02144_1934                 0.65%    passed     83.89%
+  15  A.PuertoRico.8.1934.J04572_1934               0.00%    passed     85.35%
+  16  A.PuertoRico.8.1934.EF467821_1934             0.65%    passed     83.89%
+  17  A.Mongolia.153.1988.Z54287_1988               0.65%    passed     83.89%
+  18  A.Mongolia.111.1991.Z54288_1991               0.65%    passed     78.90%
+  19  A.Saga.2.1957.AB043486_1957                   0.65%    passed     57.30%
+  20  A.Beijing.262.95.AY289928_1995                0.65%    passed     98.78%
+  21  A.Alaska.1173.00.AY029287_2000                0.65%    passed     98.28%
+  22  A.Tokyo.3.1967.U38242_1967                    0.00%    passed     87.44%
+  23  A.WS.33.U08904_1933                           0.00%    passed     78.89%
+  24  A.WSN.1933.CY010788_1933                      0.65%    passed     97.47%
+  25  A.WilsonSmith.1933.DQ508905_1933              0.65%    passed     95.64%
+  26  A.goose.HongKong.8.1976.U46021_1976           0.00%    passed     85.78%
+  27  A.duck.Australia.749.80.AF091312_1980         0.00%    passed     72.75%
+  28  A.mallard.Tennessee.11464.85.AF091311_1985    0.00%    passed     94.78%
+  29  A.duck.Alberta.35.76.U47310_1976              0.00%    passed     95.40%
+  30  A.duck.HK.196.1977.D00839_1977                0.00%    passed     83.64%
+  31  A.teal.Alberta.141.1992.CY004539_1992         0.00%    passed     72.84%
+  32  A.pintail.Ohio.25.1999.CY017725_1999          0.00%    passed     70.13%
+  33  A.Teal.Ohio.72.1999.CY017717_1999             0.00%    passed     70.13%
+  34  A.BrantGoose.1.1917.AY095226_1917            69.91%    passed     98.82%
+  35  A.mallard.Ohio.66.1999.CY016955_1999          0.00%    passed     70.13%
+  36  A.mallard.Ohio.56.1999.CY012824_1999          0.00%    passed     70.13%
+  37  A.mallard.ALB.267.1996.CY004504_1996          0.00%    passed     74.41%
+  38  A.duck.NJ.771770.1995.EU026110_1995           0.00%    passed     72.67%
+  39  A.mallard.Alberta.211.1998.AY633212_1998      0.00%    passed     55.78%
+  40  A.mallard.MD.403.2002.EU026082_2002           0.00%    passed     38.53%
+  41  A.swine.29.37.U04857_1937                     0.22%    passed     93.70%
+  42  A.swine.Ehime.1.80.X57494_1980                0.00%    passed     76.90%
+  43  A.swine.Illinois.63.X57493_1963               0.00%    passed     65.02%
+  44  A.swine.NewJersey.11.76.K00992_1976           0.00%    passed     79.34%
+  45  A.swine.Wisconsin.1.61.AF091307_1961          0.00%    passed     76.94%
+  46  A.swine.Thailand.271.2005.EF101749_2005       0.00%    passed     93.52%
+  47  A.swine.HongKong.273.1994.U45452_1994         0.00%    passed     54.71%
+  48  A.swine.Iowa.15.1930.U47305_1930              0.00%    passed     99.94%
+  49  A.swine.Iowa.15.1930.X57492_1930              0.00%    passed     99.61%
+  50  A.swine.Iowa.15.1930.EU139823_1930            0.00%    passed     99.90%
+  51  A.AlmaAta.1417.1984.S62154_1984               0.00%    passed     99.86%
+  52  A.swine.StHyacinthe.148.1990.U11703_1990      0.22%    passed     99.84%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                         1.48%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: A.PuertoRico.8.1934.EF467821_1934 is identical to A.PuertoRico.8.34.J02144_1934 but kept for subsequent analysis
+NOTE: A.Teal.Ohio.72.1999.CY017717_1999 is identical to A.pintail.Ohio.25.1999.CY017725_1999 but kept for subsequent analysis
+NOTE: 3 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: A.Mongolia.153.1988.Z54287_1988 (identical to A.PuertoRico.8.34.J02144_1934) is ignored but added at the end
+NOTE: A.mallard.Ohio.66.1999.CY016955_1999 (identical to A.pintail.Ohio.25.1999.CY017725_1999) is ignored but added at the end
+NOTE: A.mallard.Ohio.56.1999.CY012824_1999 (identical to A.pintail.Ohio.25.1999.CY017725_1999) is ignored but added at the end
+Alignment was printed to data/ice_viruses.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to data/ice_viruses.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -4405.855
+2. Current log-likelihood: -4085.572
+3. Current log-likelihood: -4082.248
+Optimal log-likelihood: -4082.215
+Rate parameters:  A-C: 1.20117  A-G: 5.30322  A-T: 0.62994  C-G: 0.20429  C-T: 6.49562  G-T: 1.00000
+Base frequencies:  A: 0.328  C: 0.212  G: 0.229  T: 0.231
+Gamma shape alpha: 0.523
+Parameters optimization took 3 rounds (0.204 sec)
+Computing ML distances based on estimated model parameters... 0.077 sec
+Computing BIONJ tree...
+0.002 seconds
+Log-likelihood of BIONJ tree: -4112.240
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.224 second
+Computing log-likelihood of 98 initial trees ... 0.377 seconds
+Current best score: -4079.551
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -4077.365
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -4077.339
+Iteration 10 / LogL: -4077.340 / Time: 0h:0m:1s
+Iteration 20 / LogL: -4077.341 / Time: 0h:0m:1s
+Finish initializing candidate tree set (2)
+Current best tree score: -4077.339 / CPU time: 1.375
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -4076.056
+Iteration 30 / LogL: -4076.067 / Time: 0h:0m:2s (0h:0m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -4076.004
+Iteration 40 / LogL: -4077.394 / Time: 0h:0m:3s (0h:0m:7s left)
+UPDATE BEST LOG-LIKELIHOOD: -4076.003
+Iteration 50 / LogL: -4077.402 / Time: 0h:0m:4s (0h:0m:6s left)
+Iteration 60 / LogL: -4076.016 / Time: 0h:0m:4s (0h:0m:6s left)
+Iteration 70 / LogL: -4077.392 / Time: 0h:0m:5s (0h:0m:5s left)
+Iteration 80 / LogL: -4077.443 / Time: 0h:0m:6s (0h:0m:4s left)
+Iteration 90 / LogL: -4083.166 / Time: 0h:0m:7s (0h:0m:3s left)
+Iteration 100 / LogL: -4077.365 / Time: 0h:0m:8s (0h:0m:2s left)
+Iteration 110 / LogL: -4076.057 / Time: 0h:0m:8s (0h:0m:1s left)
+UPDATE BEST LOG-LIKELIHOOD: -4076.003
+Iteration 120 / LogL: -4096.689 / Time: 0h:0m:9s (0h:0m:1s left)
+Iteration 130 / LogL: -4076.007 / Time: 0h:0m:10s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 134 ITERATIONS / Time: 0h:0m:11s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4076.003
+Optimal log-likelihood: -4076.002
+Rate parameters:  A-C: 1.20521  A-G: 5.45733  A-T: 0.64682  C-G: 0.21380  C-T: 6.63145  G-T: 1.00000
+Base frequencies:  A: 0.328  C: 0.212  G: 0.229  T: 0.231
+Gamma shape alpha: 0.516
+Parameters optimization took 1 rounds (0.016 sec)
+BEST SCORE FOUND : -4076.002
+Total tree length: 1.677
+
+Total number of iterations: 134
+CPU time used for tree search: 10.497 sec (0h:0m:10s)
+Wall-clock time used for tree search: 10.790 sec (0h:0m:10s)
+Total CPU time used: 10.822 sec (0h:0m:10s)
+Total wall-clock time used: 11.131 sec (0h:0m:11s)
+
+Analysis results written to: 
+  IQ-TREE report:                data/ice_viruses.fasta.iqtree
+  Maximum-likelihood tree:       data/ice_viruses.fasta.treefile
+  Likelihood distances:          data/ice_viruses.fasta.mldist
+  Screen log file:               data/ice_viruses.fasta.log
+
+Date and Time: Tue May 17 16:22:12 2022
