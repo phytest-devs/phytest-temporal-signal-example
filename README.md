@@ -78,7 +78,7 @@ Results (0.31s):
 phytest ice_viruses.py -a data/ice_viruses_cleaned.fasta -t data/ice_viruses_cleaned.fasta.treefile
 ```
 
-Using the cleaned dataset all our tests pass, giving us confidence in process with our analysis. 
+Using the cleaned dataset all our tests pass, giving us confidence to progress with our analysis. 
 
 ```
 rootdir: /Users/wytamma/programming/phytest-temporal-signal-example
