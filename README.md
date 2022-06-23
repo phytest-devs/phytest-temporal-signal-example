@@ -50,7 +50,7 @@ Here we test two data sets from the [TempEst tutorial](https://beast.community/t
 ### Uncleaned 
 
 ```pash
-phytest ice_viruses.py -a data/ice_viruses.fasta -t data/ice_viruses.fasta.treefile
+phytest ice_viruses_tests.py -a data/ice_viruses.fasta -t data/ice_viruses.fasta.treefile
 ```
 
 From the output we can see that out tests failed because the R-squarred value from the root-to-tip regression is less than 0.5.
@@ -60,22 +60,22 @@ Test session starts (platform: darwin, Python 3.8.5, pytest 7.1.2, pytest-sugar 
 rootdir: /Users/wytamma/programming/phytest-temporal-signal-example
 plugins: metadata-2.0.1, html-3.1.1, sugar-0.9.4
 collecting ... 
- ice_viruses.py ✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓   98% █████████▊
+ ice_viruses_tests.py ✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓   98% █████████▊
 
- ice_viruses.py ⨯                                                      100% ██████████
+ ice_viruses_tests.py ⨯                                                      100% ██████████
 ===================================== short test summary info ========================
-FAILED ice_viruses.py::test_root_to_tip[tree0] - phytest.utils.PhytestAssertion: The 
+FAILED ice_viruses_tests.py::test_root_to_tip[tree0] - phytest.utils.PhytestAssertion: The 
 R-squarred value from the root-to-tip regression '0.36462497968641333' is less than '0.5'.
 
 Results (0.31s):
       53 passed
        1 failed
-         - ice_viruses.py:12 test_root_to_tip[tree0]
+         - ice_viruses_tests.py:12 test_root_to_tip[tree0]
 ```
 ### Cleaned 
 
 ```bash
-phytest ice_viruses.py -a data/ice_viruses_cleaned.fasta -t data/ice_viruses_cleaned.fasta.treefile
+phytest ice_viruses_tests.py -a data/ice_viruses_cleaned.fasta -t data/ice_viruses_cleaned.fasta.treefile
 ```
 
 Using the cleaned dataset all our tests pass, giving us confidence to progress with our analysis. 
@@ -84,7 +84,7 @@ Using the cleaned dataset all our tests pass, giving us confidence to progress w
 rootdir: /Users/wytamma/programming/phytest-temporal-signal-example
 plugins: metadata-2.0.1, html-3.1.1, sugar-0.9.4
 collecting ... 
- ice_viruses.py ✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓    100% ██████████
+ ice_viruses_tests.py ✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓    100% ██████████
 
 Results (0.34s):
       47 passed
