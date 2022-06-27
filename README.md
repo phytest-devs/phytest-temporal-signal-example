@@ -50,7 +50,7 @@ Here we test two data sets from the [TempEst tutorial](https://beast.community/t
 ### Uncleaned 
 
 ```pash
-phytest ice_viruses_tests.py -a data/ice_viruses.fasta -t data/ice_viruses.fasta.treefile
+phytest ice_viruses_tests.py -s data/ice_viruses.fasta -t data/ice_viruses.fasta.treefile
 ```
 
 From the output we can see that out tests failed because the R-squarred value from the root-to-tip regression is less than 0.5.
