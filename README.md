@@ -30,7 +30,7 @@ In the `ice_viruses_tests.py` file we define the tests that we want to run on ou
 
 The focus of this test will be determining if the dataset meets our temporal signal requirements. in the file we file the test below. We want the r squared value of our root-to-tip regression to be greater that 0.5 (this suggest a strong correlation between branch length and sampling date), we want the inferred rate to be between 0.001 and 0.01 (the evolutionary rate of influenza is on the order of 10^-3), and finally we expect the root date i.e. TMRCA to be in the 19th century. We also add some simple tests for the sequence length and 
 
-```
+```python
 def test_root_to_tip(tree: Tree):
     tree.assert_root_to_tip(
         min_r_squared=0.5, 
