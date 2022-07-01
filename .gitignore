@@ -3,3 +3,5 @@ venv
 venv/
 __pycache__/ice_viruses.cpython-38-pytest-7.1.2.pyc
 root-to-tip.pdf
+__pycache__/ice_viruses_tests.cpython-38-pytest-7.1.2.pyc
+phytest-report.html
