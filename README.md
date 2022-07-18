@@ -45,7 +45,7 @@ If these test do not pass then then phytest will fail. While these test aren't v
 
 ## Data
 
-Here we test two data sets from the [TempEst tutorial](https://beast.community/tempest_tutorial). The fist is a uncleaned dataset that contains erroneous data and the seconds is a cleaned dataset that has the sequences removed.
+Here we test two data sets from the [TempEst tutorial](https://beast.community/tempest_tutorial). The first is an uncleaned dataset that contains erroneous data and the seconds is a cleaned dataset that has the sequences removed.
 
 ### Uncleaned 
 
