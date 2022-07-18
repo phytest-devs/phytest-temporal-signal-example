@@ -9,5 +9,6 @@ def test_root_to_tip_rate(tree: Tree):
     tree.assert_root_to_tip(min_rate=0.002, max_rate=0.005)
 
 
-def test_root_to_tip_date(tree: Tree):
-    tree.assert_root_to_tip(min_root_date=1800, max_root_date=1900)
+def test_root_to_tip_date(tree: Tree, extra):
+    tree.assert_root_to_tip(min_root_date=1800, max_root_date=1900, extra=extra)
+
