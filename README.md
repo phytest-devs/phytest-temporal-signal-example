@@ -1,5 +1,7 @@
 # Temporal signal with Phytest
 
+[![CI](https://github.com/phytest-devs/phytest-temporal-signal-example/actions/workflows/CI.yaml/badge.svg)](https://phytest-devs.github.io/phytest-temporal-signal-example/)
+
 In this example we use [phytest]() to enure that there is temporal signal in a dataset of sequences sampled through time. Temporal signal analysis is an important step for detecting problematic sequences and potential issues before heading on to a Bayesian phylogenetic analysis (e.g. with [BEAST](https://beast.community/beast)). 
 
 This example uses data from the [TempEst tutorial](https://beast.community/tempest_tutorial). TempEst is a useful program for explore a temporal signal analysis though a GUI, however, it is not possible to automate TempEst. Under the hood Phytest uses [TimeTree](https://github.com/neherlab/treetime) to perform root-to-tip regression allowing us to automate temporal signal testing. Automating this process is especially useful when an analysis is run many times e.g. through development or during daily builds. 
@@ -43,7 +45,7 @@ def test_root_to_tip_date(tree: Tree):
     tree.assert_root_to_tip(min_root_date=1800, max_root_date=1900)
 ```
 
-If any of these test fail then then phytest will fail. While these test aren't very strict (we give our-selves a lot of wiggle room) they are still useful for picking up errors before the analysis is run. 
+If any of these test fail then then phytest will fail. While these test aren't very strict (we give ourselves a lot of wiggle room) they are still useful for picking up errors before the analysis is run. 
 
 The root-to-tip regression can be plotted with the `tree.plot_root_to_tip` methods e.g. `tree.plot_root_to_tip("root-to-tip.png")`.
 
