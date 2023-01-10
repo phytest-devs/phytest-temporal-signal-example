@@ -56,7 +56,7 @@ Here we test two data sets from the [TempEst tutorial](https://beast.community/t
 ### Uncleaned 
 
 ```pash
-phytest ice_viruses_tests.py -a data/ice_viruses.fasta -t data/ice_viruses.fasta.treefile
+phytest ice_viruses_tests.py -s data/ice_viruses.fasta -t data/ice_viruses.fasta.treefile
 ```
 
 ![](images/root-to-tip.png)
